@@ -2,7 +2,7 @@
 
 Contact me at: github[at]yuzhes[dot]com
 
-Currently studying @ SETU, Ireland.
+Currently on VACATION
 
 Interested in: Programming, Photography, Minecraft, Travel
 
