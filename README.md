@@ -2,7 +2,7 @@
 
 Contact me at: github[at]yuzhes[dot]com
 
-Currently on VACATION
+Currently RELAXING
 
 Interested in: Programming, Photography, Minecraft, Travel
 
