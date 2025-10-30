@@ -4,7 +4,7 @@ Contact me at: github[at]yuzhes[dot]com
 
 Currently learning AI @ Imperail
 
-My research interest: GNN, ML & hardware, efficient ML computing
+My research interest: GNN, ML & Hardware, Efficient ML, AI Watermark Removal
 
 Interested in: Programming, Photography, Minecraft, Travel
 
