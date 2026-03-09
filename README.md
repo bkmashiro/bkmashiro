@@ -57,7 +57,7 @@ Side interests: photography, Minecraft, travel, learning Japanese 🇯🇵
 | [**Sandlock**](https://github.com/bkmashiro/Sandlock) | Lightweight userspace sandbox — seccomp-bpf, Landlock, strict mode, language sandboxes |
 | [**shimmy-wasm**](https://github.com/bkmashiro/shimmy-wasm) | WASM-based sandbox for AWS Lambda — WASI capabilities, ephemeral execution |
 | [**KakuYaku**](https://github.com/bkmashiro/KakuYaku-api) | Japanese text segmentation & dictionary lookup API + browser extension |
-| [**aivmem / AVM**](https://github.com/bkmashiro/aivmem) | Multi-agent memory & orchestration system |
+| [**aivmem / AVM**](https://github.com/aivmem/avm) | Multi-agent memory & orchestration system |
 | [**nest-faster-crud**](https://github.com/bkmashiro/nest-faster-crud) | Decorator-based AOP CRUD generator for NestJS |
 
 ---
