@@ -15,7 +15,7 @@ Systems · Security · Serverless · ML
 
 ### About
 
-MSc research: **serverless sandboxing & secure code execution** (Imperial College, supervised by Marios Kogias).
+MSc research: **serverless sandboxing & secure code execution** (Imperial College).
 Previously: GNN, efficient ML, AI watermark removal.
 
 Side interests: photography, Minecraft, travel, learning Japanese 🇯🇵
