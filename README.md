@@ -39,10 +39,14 @@ Side interests: photography, Minecraft, travel, learning Japanese 🇯🇵
 
 [![Linux](https://skillicons.dev/icons?i=linux)](https://skillicons.dev)
 [![NestJS](https://skillicons.dev/icons?i=nestjs)](https://skillicons.dev)
+[![React](https://skillicons.dev/icons?i=react)](https://skillicons.dev)
 [![Unity](https://skillicons.dev/icons?i=unity)](https://skillicons.dev)
+[![PyTorch](https://skillicons.dev/icons?i=pytorch)](https://skillicons.dev)
 [![Docker](https://skillicons.dev/icons?i=docker)](https://skillicons.dev)
 [![WebAssembly](https://skillicons.dev/icons?i=wasm)](https://skillicons.dev)
 [![Postgres](https://skillicons.dev/icons?i=postgres)](https://skillicons.dev)
+[![Redis](https://skillicons.dev/icons?i=redis)](https://skillicons.dev)
+[![OpenGL](https://skillicons.dev/icons?i=opengl)](https://skillicons.dev)
 
 ---
 
@@ -52,8 +56,9 @@ Side interests: photography, Minecraft, travel, learning Japanese 🇯🇵
 |---------|-------------|
 | [**Sandlock**](https://github.com/bkmashiro/Sandlock) | Lightweight userspace sandbox — seccomp-bpf, Landlock, strict mode, language sandboxes |
 | [**shimmy-wasm**](https://github.com/bkmashiro/shimmy-wasm) | WASM-based sandbox for AWS Lambda — WASI capabilities, ephemeral execution |
+| [**KakuYaku**](https://github.com/bkmashiro/KakuYaku-api) | Japanese text segmentation & dictionary lookup API + browser extension |
+| [**aivmem / AVM**](https://github.com/bkmashiro/aivmem) | Multi-agent memory & orchestration system |
 | [**nest-faster-crud**](https://github.com/bkmashiro/nest-faster-crud) | Decorator-based AOP CRUD generator for NestJS |
-| [**Blog**](https://yuzhes.com) | Personal technical blog — systems, security, ML research notes |
 
 ---
 
