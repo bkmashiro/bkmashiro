@@ -284,6 +284,29 @@ export interface Code {
 
 ---
 
+## 六·五、OJ 扩展点（保留接口，暂不实现）
+
+先专注 Botzone，但在入口预留 `task.type`，未来 OJ 无缝接入：
+
+```typescript
+export type TaskType = 'botzone' | 'oj';
+
+export interface Task {
+  type?: TaskType;  // 默认 'botzone'
+  // ...
+}
+
+// runner 分发
+switch (task.type ?? 'botzone') {
+  case 'botzone': return botzoneRunner.run(task);
+  case 'oj':      throw new Error('OJ strategy not yet implemented');
+}
+```
+
+目录 `strategies/oj/` 预留空目录 + TODO 注释。编译缓存、nsjail 沙箱可以完全复用。
+
+---
+
 ## 七、实现路线
 
 ### Phase 1 — 官方协议兼容（优先）
