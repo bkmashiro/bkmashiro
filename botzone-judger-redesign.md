@@ -378,3 +378,48 @@ switch (task.type) {
 ---
 
 *设计时间：2026-03-09*
+
+---
+
+## 九、沙箱选型 + WASM 扩展
+
+### 沙箱层级（从轻到重）
+
+| 方案 | 场景 | 启动开销 | 备注 |
+|------|------|---------|------|
+| `DirectJob` | 开发/测试 | ~0ms | 不隔离，只用于本地 |
+| `SandlockedJob` | **生产推荐** | ~1.5ms | 基于 Sandlock（自研），无需 root |
+| `JailedJob` | 备选 | ~5ms | nsjail，功能更全但更重 |
+| `WasmJob` | JS/TS Bot | ~2ms | WASM runtime，天然隔离（未来）|
+
+`ISandboxFactory` 注入，运行时按配置切换，不改业务代码。
+
+### Sandlock 集成（Phase 1 替代 nsjail）
+
+Sandlock 已自研完成（`workspace/sandlock/`），覆盖 OJ/Botzone 全部防御需求：
+- seccomp-bpf 系统调用过滤
+- Landlock 文件系统隔离
+- 资源限制（CPU/内存/文件）
+- 网络完全隔离
+- 无 root 要求，~1.5ms 启动
+
+```typescript
+class SandlockedJob implements IJob<RunInput, MeasuredProcess> {
+  // 用 sandlock 二进制包裹用户程序
+  // sandlock --cpu ${timeLimit} --memory ${memoryLimit} -- ${command}
+}
+```
+
+### WASM 扩展（Phase 5，未来）
+
+对 JS/TS Bot 尤其合适，隔离免费，跨平台：
+
+```typescript
+class WasmJob implements IJob<RunInput, MeasuredProcess> {
+  // 编译 TS → WASM（via Emscripten or wasmer）
+  // 在 WASI runtime 里执行
+  // 天然内存隔离，不需要额外 syscall 过滤
+}
+```
+
+C/C++ 也可以 Emscripten → WASM，作为 Sandlock 的补充或替代。
