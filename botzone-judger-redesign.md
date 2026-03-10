@@ -284,26 +284,54 @@ export interface Code {
 
 ---
 
-## 六·五、OJ 扩展点（保留接口，暂不实现）
+## 六·五、OJ 评测策略（与 Botzone 并列实现）
 
-先专注 Botzone，但在入口预留 `task.type`，未来 OJ 无缝接入：
+OJ 比 Botzone 简单得多，完全复用同一套编译缓存 + nsjail 沙箱，只是交互方式不同。现在设计进去，不留技术债。
+
+### OJ Task 格式
 
 ```typescript
-export type TaskType = 'botzone' | 'oj';
-
-export interface Task {
-  type?: TaskType;  // 默认 'botzone'
-  // ...
+export interface OJTask {
+  type: 'oj';
+  code: Code;                    // 用户提交的代码（一份）
+  testcases: Testcase[];         // 测试点列表
+  checker?: Code;                // special judge checker（可选）
+  callback: Callback;
 }
 
-// runner 分发
-switch (task.type ?? 'botzone') {
-  case 'botzone': return botzoneRunner.run(task);
-  case 'oj':      throw new Error('OJ strategy not yet implemented');
+export interface Testcase {
+  id: number;
+  input: string;                 // stdin 内容
+  expectedOutput?: string;       // 期望 stdout（普通题）
+  timeLimit?: number;            // 可覆盖全局限制
+  memoryLimit?: number;
 }
 ```
 
-目录 `strategies/oj/` 预留空目录 + TODO 注释。编译缓存、nsjail 沙箱可以完全复用。
+### OJStrategy 实现思路
+
+```
+for each testcase:
+  1. 启动已编译的用户程序（nsjail）
+  2. 写 testcase.input 到 stdin
+  3. 读 stdout（time/memory 限制内）
+  4. 判断 verdict：
+     - 无 checker：直接 diff（去除末尾空白）
+     - 有 checker：把 input/output/expected 传给 checker，读 checker 输出
+  5. 记录 verdict + 资源用量
+```
+
+### 通用入口
+
+```typescript
+// POST /v1/judge 统一入口
+switch (task.type) {
+  case 'botzone': return botzoneRunner.run(task as BotzoneTask);
+  case 'oj':      return ojRunner.run(task as OJTask);
+}
+```
+
+两者共享：`CompileService`、`NsjailService`、`DataStore`、`CallbackService`。
 
 ---
 
