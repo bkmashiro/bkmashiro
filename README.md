@@ -2,7 +2,7 @@
 
 # Yuzhe (bkmashiro)
 
-**MSc Computer Science · Imperial College London**
+**MSc Computing (AI & ML) · Imperial College London**
 
 Systems · Security · Serverless · ML
 
@@ -15,7 +15,7 @@ Systems · Security · Serverless · ML
 
 ### About
 
-MSc research: **serverless sandboxing & secure code execution** (Imperial College).
+MSc Computing (AI & ML) research: **serverless sandboxing & secure code execution** (Imperial College).
 Previously: GNN, efficient ML, AI watermark removal.
 
 Side interests: photography, Minecraft, travel, learning Japanese 🇯🇵
