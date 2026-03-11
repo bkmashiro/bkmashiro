@@ -29,8 +29,10 @@ Side interests: photography, Minecraft, travel, learning Japanese 🇯🇵
 [![TypeScript](https://skillicons.dev/icons?i=ts)](https://skillicons.dev)
 [![C#](https://skillicons.dev/icons?i=cs)](https://skillicons.dev)
 [![Vue](https://skillicons.dev/icons?i=vue)](https://skillicons.dev)
+[![Svelte](https://skillicons.dev/icons?i=svelte)](https://skillicons.dev)
 [![JavaScript](https://skillicons.dev/icons?i=js)](https://skillicons.dev)
 [![Python](https://skillicons.dev/icons?i=python)](https://skillicons.dev)
+[![Rust](https://skillicons.dev/icons?i=rust)](https://skillicons.dev)
 [![C++](https://skillicons.dev/icons?i=cpp)](https://skillicons.dev)
 [![C](https://skillicons.dev/icons?i=c)](https://skillicons.dev)
 [![Java](https://skillicons.dev/icons?i=java)](https://skillicons.dev)
@@ -50,7 +52,7 @@ Side interests: photography, Minecraft, travel, learning Japanese 🇯🇵
 
 ---
 
-### Selected Projects
+### Systems & Research
 
 | Project | Description |
 |---------|-------------|
@@ -59,6 +61,21 @@ Side interests: photography, Minecraft, travel, learning Japanese 🇯🇵
 | [**KakuYaku**](https://github.com/bkmashiro/KakuYaku-api) | Japanese text segmentation & dictionary lookup API + browser extension |
 | [**aivmem / AVM**](https://github.com/aivmem/avm) | Multi-agent memory & orchestration system |
 | [**nest-faster-crud**](https://github.com/bkmashiro/nest-faster-crud) | Decorator-based AOP CRUD generator for NestJS |
+
+### Platforms & Tools
+
+| Project | Description |
+|---------|-------------|
+| [**Leverage OJ**](https://github.com/bkmashiro/leverage) | Full-stack Online Judge — NestJS + Nuxt 4, ELO ranking, AI game design via MCP, sandboxed judge engine |
+| [**MapForge**](https://github.com/bkmashiro/mapforge) · [mf.yuzhes.com](https://mf.yuzhes.com) | Browser-based Minecraft map art generator — Lab color matching, Atkinson dithering, WASM acceleration, exports `.schem` / `.litematic` |
+
+### Learning in Public
+
+| Project | Description |
+|---------|-------------|
+| [**paper-a-week**](https://github.com/bkmashiro/paper-a-week) | Weekly ML paper implementations from scratch in NumPy — Attention, LoRA, FlashAttention, Adam... |
+| [**build-your-own-x-mini**](https://github.com/bkmashiro/build-your-own-x-mini) | Minimal reimplementations of systems projects — mini-redis, mini-git, mini-http, mini-lsm... |
+| [**visual-cs**](https://github.com/bkmashiro/visual-cs) | Algorithm & data structure visualizations — pure HTML/CSS/JS, no build step |
 
 ---
 
