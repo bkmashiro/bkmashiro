@@ -67,6 +67,7 @@ Side interests: photography, Minecraft, travel, learning Japanese 🇯🇵
 | Project | Description |
 |---------|-------------|
 | **Leverage OJ** · [frontend](https://github.com/ThinkSpiritLab/leverage-frontend-neo) · [backend](https://github.com/ThinkSpiritLab/leverage-backend-neo) · [judge](https://github.com/bkmashiro/botzone-neo) | Full-stack Online Judge — NestJS + Nuxt 4, ELO ranking, AI game design via MCP, sandboxed judge engine |
+| [**creative-lab**](https://github.com/bkmashiro/creative-lab) · [cl.yuzhes.com](https://cl.yuzhes.com) | Daily creative coding demos — Canvas 2D, WebGL/GLSL, generative art. One new demo every 2 days |
 | [**MapForge**](https://github.com/bkmashiro/mapforge) · [mf.yuzhes.com](https://mf.yuzhes.com) | Browser-based Minecraft map art generator — Lab color matching, Atkinson dithering, WASM acceleration, exports `.schem` / `.litematic` |
 
 ### Learning in Public
