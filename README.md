@@ -60,7 +60,8 @@ Side interests: photography, Minecraft, travel, learning Japanese 🇯🇵
 | [**shimmy-wasm**](https://github.com/bkmashiro/shimmy-wasm) | WASM-based sandbox for AWS Lambda — WASI capabilities, ephemeral execution |
 | [**KakuYaku**](https://github.com/bkmashiro/KakuYaku-api) | Japanese text segmentation & dictionary lookup API + browser extension |
 | [**aivmem / AVM**](https://github.com/aivmem/avm) | Multi-agent memory & orchestration system |
-| [**nest-faster-crud**](https://github.com/bkmashiro/nest-faster-crud) | Decorator-based AOP CRUD generator for NestJS |
+| [**nest-faster-crud**](https://github.com/bkmashiro/nest-faster-crud) · [![npm](https://img.shields.io/npm/v/@faster-crud/core?style=flat-square&label=npm)](https://www.npmjs.com/package/@faster-crud/core) | End-to-end type-safe CRUD for NestJS — 18 packages, adapters for TypeORM/Prisma/Drizzle/Mongoose/MikroORM, frontend bindings for React/Vue/Svelte/Solid |
+| [**redscript**](https://github.com/bkmashiro/redscript) | Compiler targeting Minecraft Java Edition — C-style language, entity selectors as first-class types, compiles to mcfunction datapacks and command block structures |
 
 ### Platforms & Tools
 
