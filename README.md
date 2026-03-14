@@ -8,6 +8,7 @@ Systems · Security · Serverless · ML
 
 [![Blog](https://img.shields.io/badge/Blog-yuzhes.com-blue?style=flat-square&logo=rss&logoColor=white)](https://yuzhes.com)
 [![Email](https://img.shields.io/badge/Email-github%40yuzhes.com-grey?style=flat-square&logo=gmail&logoColor=white)](mailto:github@yuzhes.com)
+[![VibeCheck](https://img.shields.io/endpoint?url=https%3A%2F%2Fvibecheck-api.dylan-233.workers.dev%2Fbadge%2Fuser%2Fbkmashiro&style=flat-square)](https://git-vibe.pages.dev)
 
 </div>
 
@@ -62,6 +63,7 @@ Side interests: photography, Minecraft, travel, learning Japanese 🇯🇵
 | [**aivmem / AVM**](https://github.com/aivmem/avm) | Multi-agent memory & orchestration system |
 | [**nest-faster-crud**](https://github.com/bkmashiro/nest-faster-crud) · [![npm](https://img.shields.io/npm/v/@faster-crud/core?style=flat-square&label=npm)](https://www.npmjs.com/package/@faster-crud/core) | End-to-end type-safe CRUD for NestJS — 18 packages, adapters for TypeORM/Prisma/Drizzle/Mongoose/MikroORM, frontend bindings for React/Vue/Svelte/Solid |
 | [**redscript**](https://github.com/bkmashiro/redscript) | Compiler targeting Minecraft Java Edition — C-style language, entity selectors as first-class types, compiles to mcfunction datapacks and command block structures |
+| [**VibeCheck**](https://github.com/bkmashiro/vibecheck) · [git-vibe.pages.dev](https://git-vibe.pages.dev) · [![VibeCheck Score](https://img.shields.io/endpoint?url=https%3A%2F%2Fvibecheck-api.dylan-233.workers.dev%2Fbadge%2Frepo%2Fbkmashiro%2Fvibecheck&style=flat-square)](https://git-vibe.pages.dev/r/bkmashiro/vibecheck) | Analyze any GitHub repo's commit history and detect AI-assisted vibe coding — unbounded score, leaderboard, badges, i18n |
 
 ### Platforms & Tools
 
