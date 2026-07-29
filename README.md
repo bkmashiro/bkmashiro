@@ -2,10 +2,12 @@
 
 <img src="./assets/profile-header.svg" alt="Yuzhe Shi — software, AI systems, and products" width="100%" />
 
-[![Portfolio](https://img.shields.io/badge/Portfolio-yuzhes.com-7c5cff?style=flat-square)](https://www.yuzhes.com)
-[![Blog](https://img.shields.io/badge/Blog-note.yuzhes.com-45bfa9?style=flat-square&logo=rss&logoColor=white)](https://note.yuzhes.com)
-[![Email](https://img.shields.io/badge/Email-github%40yuzhes.com-59627f?style=flat-square&logo=gmail&logoColor=white)](mailto:github@yuzhes.com)
-[![VibeCheck](https://img.shields.io/endpoint?url=https%3A%2F%2Fvibecheck-api.dylan-233.workers.dev%2Fbadge%2Fuser%2Fbkmashiro&style=flat-square)](https://git-vibe.pages.dev)
+<p align="center">
+  <a href="https://www.yuzhes.com"><img alt="Portfolio" src="https://img.shields.io/badge/Portfolio-yuzhes.com-7c5cff?style=flat-square" /></a>&nbsp;
+  <a href="https://note.yuzhes.com"><img alt="Blog" src="https://img.shields.io/badge/Blog-note.yuzhes.com-45bfa9?style=flat-square&amp;logo=rss&amp;logoColor=white" /></a>&nbsp;
+  <a href="mailto:github@yuzhes.com"><img alt="Email" src="https://img.shields.io/badge/Email-github%40yuzhes.com-59627f?style=flat-square&amp;logo=gmail&amp;logoColor=white" /></a>&nbsp;
+  <a href="https://git-vibe.pages.dev"><img alt="VibeCheck" src="https://img.shields.io/endpoint?url=https%3A%2F%2Fvibecheck-api.dylan-233.workers.dev%2Fbadge%2Fuser%2Fbkmashiro&amp;style=flat-square" /></a>
+</p>
 
 </div>
 
