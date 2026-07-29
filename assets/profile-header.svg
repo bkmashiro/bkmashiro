@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="360" viewBox="0 0 1200 360" role="img" aria-labelledby="title desc">
+  <title id="title">Yuzhe Shi — software, AI systems, and products</title>
+  <desc id="desc">A dark terminal-inspired profile banner with connected system nodes.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#070a13"/>
+      <stop offset="0.55" stop-color="#10152a"/>
+      <stop offset="1" stop-color="#081d1c"/>
+    </linearGradient>
+    <radialGradient id="glowA" cx="0.78" cy="0.25" r="0.58">
+      <stop offset="0" stop-color="#7c5cff" stop-opacity="0.28"/>
+      <stop offset="1" stop-color="#7c5cff" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glowB" cx="0.9" cy="0.85" r="0.52">
+      <stop offset="0" stop-color="#45e0c1" stop-opacity="0.22"/>
+      <stop offset="1" stop-color="#45e0c1" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M32 0H0V32" fill="none" stroke="#9ca8d7" stroke-opacity="0.075"/>
+    </pattern>
+    <clipPath id="rounded"><rect width="1200" height="360" rx="24"/></clipPath>
+  </defs>
+
+  <g clip-path="url(#rounded)">
+    <rect width="1200" height="360" fill="url(#bg)"/>
+    <rect width="1200" height="360" fill="url(#glowA)"/>
+    <rect width="1200" height="360" fill="url(#glowB)"/>
+    <rect width="1200" height="360" fill="url(#grid)"/>
+
+    <g opacity="0.85">
+      <path d="M770 82 C865 82 850 177 944 177 S1041 92 1142 92" fill="none" stroke="#7c5cff" stroke-width="2" stroke-dasharray="5 8"/>
+      <path d="M742 258 C846 258 850 177 944 177 S1030 274 1146 274" fill="none" stroke="#45e0c1" stroke-width="2" stroke-dasharray="5 8"/>
+      <circle cx="944" cy="177" r="52" fill="#10172b" stroke="#93a4ff" stroke-width="2"/>
+      <circle cx="770" cy="82" r="9" fill="#7c5cff"/>
+      <circle cx="742" cy="258" r="9" fill="#45e0c1"/>
+      <circle cx="1142" cy="92" r="9" fill="#7c5cff"/>
+      <circle cx="1146" cy="274" r="9" fill="#45e0c1"/>
+
+      <g fill="#cbd3ff" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13" letter-spacing="1.4">
+        <text x="732" y="58">RUNTIME</text>
+        <text x="688" y="293">TOOLS</text>
+        <text x="1087" y="68">SYSTEMS</text>
+        <text x="1082" y="309">PRODUCTS</text>
+      </g>
+      <text x="944" y="181" text-anchor="middle" fill="#eef1ff" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="14" font-weight="700" letter-spacing="2">BUILD</text>
+    </g>
+
+    <g font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace">
+      <text x="64" y="62" fill="#66e8ca" font-size="16">bkmashiro@github</text>
+      <text x="224" y="62" fill="#7984a8" font-size="16">:~$ whoami</text>
+      <text x="62" y="139" fill="#f4f6ff" font-family="Inter, ui-sans-serif, system-ui, sans-serif" font-size="60" font-weight="760" letter-spacing="-2">Yuzhe Shi</text>
+      <text x="65" y="183" fill="#b9c2df" font-size="19" letter-spacing="1.2">software · AI systems · products</text>
+
+      <g font-size="14">
+        <rect x="64" y="221" width="156" height="36" rx="18" fill="#7c5cff" fill-opacity="0.16" stroke="#8d76ff" stroke-opacity="0.6"/>
+        <text x="142" y="244" text-anchor="middle" fill="#c9c2ff">agent runtimes</text>
+
+        <rect x="232" y="221" width="164" height="36" rx="18" fill="#45e0c1" fill-opacity="0.12" stroke="#53d6be" stroke-opacity="0.55"/>
+        <text x="314" y="244" text-anchor="middle" fill="#a8f1e2">secure execution</text>
+
+        <rect x="408" y="221" width="162" height="36" rx="18" fill="#7c5cff" fill-opacity="0.16" stroke="#8d76ff" stroke-opacity="0.6"/>
+        <text x="489" y="244" text-anchor="middle" fill="#c9c2ff">developer tools</text>
+      </g>
+
+      <text x="65" y="308" fill="#7984a8" font-size="14">Imperial College London · MSc Computing (AI &amp; ML)</text>
+      <rect x="64" y="326" width="352" height="2" rx="1" fill="#66e8ca" opacity="0.75"/>
+    </g>
+  </g>
+</svg>

@@ -1,95 +1,70 @@
 <div align="center">
 
-# Yuzhe (bkmashiro)
+<img src="./assets/profile-header.svg" alt="Yuzhe Shi — software, AI systems, and products" width="100%" />
 
-**MSc Computing (AI & ML) · Imperial College London**
-
-Systems · Security · Serverless · ML
-
-[![Blog](https://img.shields.io/badge/Blog-yuzhes.com-blue?style=flat-square&logo=rss&logoColor=white)](https://yuzhes.com)
-[![Email](https://img.shields.io/badge/Email-github%40yuzhes.com-grey?style=flat-square&logo=gmail&logoColor=white)](mailto:github@yuzhes.com)
+[![Portfolio](https://img.shields.io/badge/Portfolio-yuzhes.com-7c5cff?style=flat-square)](https://www.yuzhes.com)
+[![Blog](https://img.shields.io/badge/Blog-note.yuzhes.com-45bfa9?style=flat-square&logo=rss&logoColor=white)](https://note.yuzhes.com)
+[![Email](https://img.shields.io/badge/Email-github%40yuzhes.com-59627f?style=flat-square&logo=gmail&logoColor=white)](mailto:github@yuzhes.com)
 [![VibeCheck](https://img.shields.io/endpoint?url=https%3A%2F%2Fvibecheck-api.dylan-233.workers.dev%2Fbadge%2Fuser%2Fbkmashiro&style=flat-square)](https://git-vibe.pages.dev)
 
 </div>
 
----
+## Hello
 
-### About
+I'm Yuzhe, a software engineer and MSc Computing (AI & ML) student at Imperial College London. I build across the stack, from sandboxed runtimes and coding-agent infrastructure to compilers and user-facing AI products.
 
-MSc Computing (AI & ML) research: **serverless sandboxing & secure code execution** (Imperial College).
-Previously: GNN, efficient ML, AI watermark removal.
+My current research focuses on secure code execution and runtime isolation for serverless and agent workloads. Outside research, I like turning ideas into things people can actually use.
 
-Side interests: photography, Minecraft, travel, learning Japanese 🇯🇵
+## Shipping
 
----
+| Product | What I built | Status |
+| --- | --- | --- |
+| [**Zao · 灶**](https://zao.yuzhes.com) | A context-aware iOS cooking companion that brings recipes, pantry, meal plans, and hands-free cooking into one flow. | **Launching soon** |
+| [**Kotodama**](https://kotodam.ai) | A multilingual AI narrative-learning app where stories remember your choices and turn dialogue, vocabulary, and grammar into a connected learning path. | **Web live** · iOS coming soon |
 
-### Tech Stack
+## Selected work
 
-**Languages**
+### Agent infrastructure and developer tools
 
-[![TypeScript](https://skillicons.dev/icons?i=ts)](https://skillicons.dev)
-[![C#](https://skillicons.dev/icons?i=cs)](https://skillicons.dev)
-[![Vue](https://skillicons.dev/icons?i=vue)](https://skillicons.dev)
-[![Svelte](https://skillicons.dev/icons?i=svelte)](https://skillicons.dev)
-[![JavaScript](https://skillicons.dev/icons?i=js)](https://skillicons.dev)
-[![Python](https://skillicons.dev/icons?i=python)](https://skillicons.dev)
-[![Rust](https://skillicons.dev/icons?i=rust)](https://skillicons.dev)
-[![C++](https://skillicons.dev/icons?i=cpp)](https://skillicons.dev)
-[![C](https://skillicons.dev/icons?i=c)](https://skillicons.dev)
-[![Java](https://skillicons.dev/icons?i=java)](https://skillicons.dev)
+| Project | What it does | Stack |
+| --- | --- | --- |
+| [**Agent Workspace**](https://github.com/bkmashiro/agent-workspace) | A workspace-local command, package, and event runtime shared by coding agents and humans. | Go |
+| [**SourcePin**](https://github.com/bkmashiro/sourcepin) | Pins UI feedback to durable DOM and source locations, then keeps final acceptance with the human. | TypeScript, Vite, MCP |
 
-**Tools & Frameworks**
+### Systems, languages, and frameworks
 
-[![Linux](https://skillicons.dev/icons?i=linux)](https://skillicons.dev)
-[![NestJS](https://skillicons.dev/icons?i=nestjs)](https://skillicons.dev)
-[![React](https://skillicons.dev/icons?i=react)](https://skillicons.dev)
-[![Unity](https://skillicons.dev/icons?i=unity)](https://skillicons.dev)
-[![PyTorch](https://skillicons.dev/icons?i=pytorch)](https://skillicons.dev)
-[![Docker](https://skillicons.dev/icons?i=docker)](https://skillicons.dev)
-[![WebAssembly](https://skillicons.dev/icons?i=wasm)](https://skillicons.dev)
-[![Postgres](https://skillicons.dev/icons?i=postgres)](https://skillicons.dev)
-[![Redis](https://skillicons.dev/icons?i=redis)](https://skillicons.dev)
-[![OpenGL](https://skillicons.dev/icons?i=opengl)](https://skillicons.dev)
+| Project | What it does | Stack |
+| --- | --- | --- |
+| [**shimmy-wasm**](https://github.com/bkmashiro/shimmy-wasm) | Runs untrusted code in a capability-constrained WASM/WASI sandbox for serverless environments. | Python, WebAssembly, WASI |
+| [**RedScript**](https://github.com/bkmashiro/redscript) | A typed language, compiler, LSP, and toolchain that emits vanilla Minecraft datapacks. | TypeScript, compilers |
+| [**@faster-crud**](https://github.com/bkmashiro/nest-faster-crud) | An end-to-end type-safe CRUD toolkit spanning 18 backend, ORM, and frontend packages. | TypeScript, NestJS, React, Vue, Svelte |
 
----
+### Platforms
 
-### Systems & Research
+| Project | What it does | Links |
+| --- | --- | --- |
+| [**Leverage OJ**](https://github.com/ThinkSpiritLab/leverage-frontend-neo) | A full-stack online judge with competitive ranking, AI-assisted game design, and sandboxed execution. | [backend](https://github.com/ThinkSpiritLab/leverage-backend-neo) · [judge](https://github.com/bkmashiro/botzone-neo) |
 
-| Project | Description |
-|---------|-------------|
-| [**Sandlock**](https://github.com/bkmashiro/Sandlock) | Lightweight userspace sandbox — seccomp-bpf, Landlock, strict mode, language sandboxes |
-| [**shimmy-wasm**](https://github.com/bkmashiro/shimmy-wasm) | WASM-based sandbox for AWS Lambda — WASI capabilities, ephemeral execution |
-| [**KakuYaku**](https://github.com/bkmashiro/KakuYaku-api) | Japanese text segmentation & dictionary lookup API + browser extension |
-| [**aivmem / AVM**](https://github.com/aivmem/avm) | Multi-agent memory & orchestration system |
-| [**nest-faster-crud**](https://github.com/bkmashiro/nest-faster-crud) · [![npm](https://img.shields.io/npm/v/@faster-crud/core?style=flat-square&label=npm)](https://www.npmjs.com/package/@faster-crud/core) | End-to-end type-safe CRUD for NestJS — 18 packages, adapters for TypeORM/Prisma/Drizzle/Mongoose/MikroORM, frontend bindings for React/Vue/Svelte/Solid |
-| [**redscript**](https://github.com/bkmashiro/redscript) | Compiler targeting Minecraft Java Edition — C-style language, entity selectors as first-class types, compiles to mcfunction datapacks and command block structures |
-| [**VibeCheck**](https://github.com/bkmashiro/vibecheck) · [git-vibe.pages.dev](https://git-vibe.pages.dev) · [![VibeCheck Score](https://img.shields.io/endpoint?url=https%3A%2F%2Fvibecheck-api.dylan-233.workers.dev%2Fbadge%2Frepo%2Fbkmashiro%2Fvibecheck&style=flat-square)](https://git-vibe.pages.dev/r/bkmashiro/vibecheck) | Analyze any GitHub repo's commit history and detect AI-assisted vibe coding — unbounded score, leaderboard, badges, i18n |
-
-### Platforms & Tools
-
-| Project | Description |
-|---------|-------------|
-| **Leverage OJ** · [frontend](https://github.com/ThinkSpiritLab/leverage-frontend-neo) · [backend](https://github.com/ThinkSpiritLab/leverage-backend-neo) · [judge](https://github.com/bkmashiro/botzone-neo) | Full-stack Online Judge — NestJS + Nuxt 4, ELO ranking, AI game design via MCP, sandboxed judge engine |
-| [**creative-lab**](https://github.com/bkmashiro/creative-lab) · [cl.yuzhes.com](https://cl.yuzhes.com) | Daily creative coding demos — Canvas 2D, WebGL/GLSL, generative art. One new demo every 2 days |
-| [**MapForge**](https://github.com/bkmashiro/mapforge) · [mf.yuzhes.com](https://mf.yuzhes.com) | Browser-based Minecraft map art generator — Lab color matching, Atkinson dithering, WASM acceleration, exports `.schem` / `.litematic` |
-
-### Learning in Public
-
-| Project | Description |
-|---------|-------------|
-| [**paper-a-week**](https://github.com/bkmashiro/paper-a-week) | Weekly ML paper implementations from scratch in NumPy — Attention, LoRA, FlashAttention, Adam... |
-| [**build-your-own-x-mini**](https://github.com/bkmashiro/build-your-own-x-mini) | Minimal reimplementations of systems projects — mini-redis, mini-git, mini-http, mini-lsm... |
-| [**visual-cs**](https://github.com/bkmashiro/visual-cs) | Algorithm & data structure visualizations — pure HTML/CSS/JS, no build step |
-
----
-
-### GitHub Stats
+## Tech stack
 
 <div align="center">
 
-[![](https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=bkmashiro&theme=tokyonight)](https://github.com/vn7n24fzkq/github-profile-summary-cards)
+**Languages**
 
-[![](https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=bkmashiro&theme=tokyonight)](https://github.com/vn7n24fzkq/github-profile-summary-cards)
-[![](https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=bkmashiro&theme=tokyonight)](https://github.com/vn7n24fzkq/github-profile-summary-cards)
+[![Languages](https://skillicons.dev/icons?i=ts,js,python,go,rust,cpp,c,cs,java)](https://skillicons.dev)
+
+**Frameworks, systems, and data**
+
+[![Frameworks and tools](https://skillicons.dev/icons?i=linux,nestjs,react,vue,svelte,pytorch,docker,wasm,postgres,redis)](https://skillicons.dev)
 
 </div>
+
+## Research
+
+Current: serverless sandboxing, secure code execution, and runtime isolation for agent workloads at Imperial College London.
+
+Previous work includes graph neural networks, efficient ML, and AI watermark removal. Publications and research identifiers are listed on [ORCID](https://orcid.org/0009-0006-5850-1184).
+
+---
+
+Cooking and baking, photography, Minecraft, travel, and learning Japanese when I'm away from the terminal.
