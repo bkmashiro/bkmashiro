@@ -2,7 +2,7 @@
 
 <img src="./assets/profile-header.svg" alt="Yuzhe Shi — software, AI systems, and products" width="100%" />
 
-[**Portfolio**](https://www.yuzhes.com) · [**Blog**](https://note.yuzhes.com) · [**Email**](mailto:github@yuzhes.com) · [**VibeCheck**](https://git-vibe.pages.dev)
+[**note.yuzhes.com**](https://note.yuzhes.com)
 
 </div>
 
@@ -41,6 +41,7 @@ My current research focuses on secure code execution and runtime isolation for s
 | Project | What it does | Links |
 | --- | --- | --- |
 | [**Leverage OJ**](https://github.com/ThinkSpiritLab/leverage-frontend-neo) | A full-stack online judge with competitive ranking, AI-assisted game design, and sandboxed execution. | [backend](https://github.com/ThinkSpiritLab/leverage-backend-neo) · [judge](https://github.com/bkmashiro/botzone-neo) |
+| [**VibeCheck**](https://github.com/bkmashiro/vibecheck) | Analyzes GitHub commit histories for AI-assisted vibe coding, with user and repository scores, leaderboards, and badges. | [git-vibe.pages.dev](https://git-vibe.pages.dev) |
 
 ## Tech stack
 
@@ -60,7 +61,7 @@ My current research focuses on secure code execution and runtime isolation for s
 
 Current: serverless sandboxing, secure code execution, and runtime isolation for agent workloads at Imperial College London.
 
-Previous work includes graph neural networks, efficient ML, and AI watermark removal. Publications and research identifiers are listed on [ORCID](https://orcid.org/0009-0006-5850-1184).
+Previous work includes graph neural networks, efficient ML, and AI watermark removal.
 
 ---
 
