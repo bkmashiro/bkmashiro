@@ -49,13 +49,19 @@ My current research focuses on secure code execution and runtime isolation for s
 
 **Languages**
 
-[![Languages](https://skillicons.dev/icons?i=ts,js,python,go,rust,cpp,c,cs,java)](https://skillicons.dev)
+[![Languages](https://skillicons.dev/icons?i=ts,js,python,go,swift,rust,cpp,c,cs,java)](https://skillicons.dev)
 
-**Frameworks, systems, and data**
+**Web, apps, and APIs**
 
-[![Frameworks and tools](https://skillicons.dev/icons?i=linux,nestjs,react,vue,svelte,pytorch,docker,wasm,postgres,redis)](https://skillicons.dev)
+[![Web, apps, and APIs](https://skillicons.dev/icons?i=nodejs,react,vue,nuxtjs,svelte,nextjs,vite,tailwind,nestjs,astro)](https://skillicons.dev)
+
+**Systems, AI, and data**
+
+[![Systems, AI, and data](https://skillicons.dev/icons?i=linux,docker,wasm,pytorch,cloudflare,aws,postgres,redis,sqlite,unity,opengl)](https://skillicons.dev)
 
 </div>
+
+**Also used across current projects:** SwiftUI · Hono · Fastify · Drizzle ORM · TypeORM · MCP · CodeMirror · VS Code Extension API
 
 ## Research
 
