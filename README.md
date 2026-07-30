@@ -2,7 +2,7 @@
 
 <img src="./assets/profile-header.svg" alt="Yuzhe Shi — software, AI systems, and products" width="100%" />
 
-[**note.yuzhes.com**](https://note.yuzhes.com)
+[**Blog**](https://note.yuzhes.com) · [**Links**](https://me.yuzhes.com)
 
 </div>
 
