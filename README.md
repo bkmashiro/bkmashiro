@@ -57,11 +57,11 @@ My current research focuses on secure code execution and runtime isolation for s
 
 **Systems, AI, and data**
 
-[![Systems, AI, and data](https://skillicons.dev/icons?i=linux,docker,wasm,pytorch,cloudflare,aws,postgres,redis,sqlite,unity,opengl)](https://skillicons.dev)
+[![Systems, AI, and data](https://skillicons.dev/icons?i=linux,docker,wasm,pytorch,cloudflare,aws,postgres,redis,sqlite,unity)](https://skillicons.dev)
 
 </div>
 
-**Also used across current projects:** SwiftUI · Hono · Fastify · Drizzle ORM · TypeORM · MCP · CodeMirror · VS Code Extension API
+**Also used across current projects:** SwiftUI · Hono · Fastify · Drizzle ORM · TypeORM · MCP · CodeMirror · VS Code Extension API · OpenGL
 
 ## Research
 
