@@ -16,7 +16,7 @@ My current research focuses on secure code execution and runtime isolation for s
 
 | Product | What I built | Status |
 | --- | --- | --- |
-| [**Zao · 灶**](https://zao.yuzhes.com) | A context-aware iOS cooking companion that brings recipes, pantry, meal plans, and hands-free cooking into one flow. | **Launching soon** |
+| [**Zao · 灶**](https://zao.yuzhes.com) | A context-aware iOS cooking companion that brings recipes, pantry, meal plans, and hands-free cooking into one flow. | **In development** |
 | [**Kotodama**](https://kotodam.ai) | A multilingual AI narrative-learning app where stories remember your choices and turn dialogue, vocabulary, and grammar into a connected learning path. | **Web live** · iOS coming soon |
 
 ## Selected work
@@ -32,7 +32,7 @@ My current research focuses on secure code execution and runtime isolation for s
 
 | Project | What it does | Stack |
 | --- | --- | --- |
-| [**shimmy-wasm**](https://github.com/bkmashiro/shimmy-wasm) | Runs untrusted code in a capability-constrained WASM/WASI sandbox for serverless environments. | Python, WebAssembly, WASI |
+| [**Pysolate**](https://github.com/bkmashiro/agent-python-runtime) | Runs Python for AI agents in isolated environments with explicit tool permissions, deterministic replay, and crash recovery. | Go, CPython, WebAssembly, WASI |
 | [**RedScript**](https://github.com/bkmashiro/redscript) | A typed language, compiler, LSP, and toolchain that emits vanilla Minecraft datapacks. | TypeScript, compilers |
 | [**@faster-crud**](https://github.com/bkmashiro/nest-faster-crud) | An end-to-end type-safe CRUD toolkit spanning 18 backend, ORM, and frontend packages. | TypeScript, NestJS, React, Vue, Svelte |
 
